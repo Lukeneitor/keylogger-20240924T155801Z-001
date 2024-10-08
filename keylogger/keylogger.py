@@ -81,6 +81,7 @@ def on_key_press(e):
         current_word += key
     update_text_display()
 
+
 def update_text_display():
     selected_date = calendar.selection_get()
     today_filename = get_filename_for_date(selected_date.year, selected_date.month, selected_date.day)
