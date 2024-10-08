@@ -65,6 +65,7 @@ def contains_bad_words(text):
             return True
     return False
 
+
 def on_key_press(e):
     global current_word
     key = e.name
